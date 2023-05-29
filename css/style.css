@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 980px;
+    width: 100%;
+}
+.nav-space {
+    background-color: aqua;
+    min-height: 100px;
+}
+.nav-container {
+    background-color: orange;
+}
+.logo, .link, .login {
+    border: 1px solid black;
+}
+.nav-flex {
+    justify-content: center;
+}
+.logo, .login {
+    width: 100px;
+}
+.link {
+    flex-grow: 1;
+}
