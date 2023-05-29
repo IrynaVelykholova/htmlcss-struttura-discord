@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+.nav-space, .header, {
     max-width: 980px;
     width: 100%;
 }
@@ -17,12 +17,16 @@ body {
 .logo, .link, .login {
     border: 1px solid black;
 }
-.nav-flex {
-    justify-content: center;
-}
 .logo, .login {
     width: 100px;
 }
-.link {
-    flex-grow: 1;
+header {
+    background-color: blue;
+    min-height: 400px;
+}
+.header-container {
+    background-color: rosybrown;
+    width: 700px;
+    min-height: 250px;
+    margin: auto;
 }
